@@ -1,0 +1,6 @@
+CREATE TABLE `t1` (
+  `eno` int(10) NOT NULL AUTO_INCREMENT,
+  `eno1` int(10) DEFAULT NULL,
+  PRIMARY KEY (`eno`),
+  KEY `idx_eno1` (`eno1`)
+) ENGINE=InnoDB AUTO_INCREMENT=1999999 DEFAULT CHARSET=latin1

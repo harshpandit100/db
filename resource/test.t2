@@ -1,0 +1,5 @@
+CREATE TABLE `t2` (
+  `eno` int(10) NOT NULL DEFAULT '0',
+  `nm` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`eno`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
