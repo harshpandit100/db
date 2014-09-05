@@ -1,0 +1,4 @@
+CREATE TABLE `test1` (
+  `id` int(10) DEFAULT NULL,
+  `logistics` float(4,2) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
